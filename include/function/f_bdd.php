@@ -10,7 +10,7 @@ function connexionBDD()
             );
     
             $bdd = new PDO(
-            'mysql:host=bdd-anna.mysql.database.azure.com;port=3306;dbname=bdd_geststages;charset=utf8',
+            'mysql:host=bdd-geststages-anna.mysql.database.azure.com;port=3306;dbname=bdd_geststages;charset=utf8',
             'usergs',
             'mdpGS',
             $options
